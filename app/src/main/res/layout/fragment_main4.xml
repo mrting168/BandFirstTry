@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mrting.blah.MainActivity$PlaceholderFragment">
+
+    <EditText
+        android:id="@+id/txtItem"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hintTxtItem"
+    />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblBtnAdd"
+        android:layout_toRightOf="@id/txtItem"
+    />
+
+    <Spinner
+        android:id="@+id/drugsSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/txtItem"
+        android:backgroundTint="@color/colorPrimary"
+        android:soundEffectsEnabled="true"
+        android:scrollbarStyle="insideInset"
+    />
+    <EditText
+        android:id="@+id/textBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textHint"
+        android:inputType="text"
+        android:layout_below="@+id/drugsSpinner"
+    />
+    <Button
+        android:id="@+id/add"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textBox"
+        android:text="Add to Database"
+        />
+    <Button
+        android:id="@+id/display"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Get Data"
+        android:layout_below="@+id/add"/>
+    <ListView
+        android:id="@+id/list314"
+        android:layout_below="@id/display"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:dividerHeight="1dp"
+        android:padding="10dp" />
+</RelativeLayout>
+

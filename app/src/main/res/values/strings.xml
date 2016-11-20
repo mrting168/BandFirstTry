@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">" Blah"</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hintTxtItem">Enter an item here....</string>
+    <string name="lblBtnAdd">Add Drug</string>
+    <string name="textHint">Notes</string>
+
+</resources>
