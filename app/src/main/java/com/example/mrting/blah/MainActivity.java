@@ -70,7 +70,6 @@ import com.microsoft.band.sensors.BandSkinTemperatureEventListener;
 import com.microsoft.band.sensors.BandPedometerEvent;
 import com.microsoft.band.sensors.BandPedometerEventListener;
 
-import com.github.mikephil.charting.*;
 
 public class MainActivity extends AppCompatActivity {
     static private TextView txtStatus, txtStatus2, txtStatus3, textNotification;
